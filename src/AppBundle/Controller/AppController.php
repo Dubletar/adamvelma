@@ -23,7 +23,7 @@ class AppController extends AbstractController
      */
     public function indexAction(Request $request)
     {
-        $filepath = __DIR__ . '/../../../web/assets/testlog.txt';
+        $filepath = __DIR__ . '/../../../web/assets/testlog'.time().'.txt';
         $file = fopen($filepath, 'w') or die ('unable to open ' . $filepath);
         fwrite($file, $request->getPathInfo());
         fwrite($file, PHP_EOL . '====================================');
