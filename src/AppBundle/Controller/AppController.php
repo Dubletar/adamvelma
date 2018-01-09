@@ -28,6 +28,6 @@ class AppController extends AbstractController
         fwrite($file, $request->getPathInfo());
         fwrite($file, PHP_EOL . '====================================');
         fclose($file);
-        return new Response('done');
+        return new Response('OK');
     }
 }
