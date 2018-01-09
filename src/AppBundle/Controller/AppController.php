@@ -23,10 +23,22 @@ class AppController extends AbstractController
      */
     public function indexAction(Request $request)
     {
-        $filepath = __DIR__ . '/../../../web/assets/testlog'.time().'.txt';
+        $filepath = __DIR__ . '/../../../web/assets/testlog'.time().rand(1000,9999).'.txt';
         $file = fopen($filepath, 'w') or die ('unable to open ' . $filepath);
-        fwrite($file, $request->getPathInfo());
-        fwrite($file, PHP_EOL . '====================================');
+
+        fwrite($file, PHP_EOL . $request->getPathInfo());
+
+        // retrieve $_SERVER variables
+        fwrite($file, PHP_EOL . $request->server->get('HTTP_HOST'));
+
+        // retrieve a $_COOKIE value
+        fwrite($file, PHP_EOL . $request->cookies->get('PHPSESSID'));
+
+        // retrieve an HTTP request header, with normalized, lowercase keys
+        fwrite($file, PHP_EOL . $request->headers->get('host'));
+        fwrite($file, PHP_EOL . $request->headers->get('content_type'));
+
+        fwrite($file, PHP_EOL . $request->getMethod());
         fclose($file);
         return new Response('OK');
     }
