@@ -1,6 +1,0 @@
-parameters:
-    pdf.service.class: AppBundle\Service\PDFService
-
-services:
-    pdf.service:
-        class: %pdf.service.class%
