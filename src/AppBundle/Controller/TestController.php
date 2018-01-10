@@ -49,6 +49,6 @@ class TestController extends AbstractController
         $em->persist($test);
         $em->flush();
 
-        return new Response($count);
+        return new Response($count ?: "OK");
     }
 }
