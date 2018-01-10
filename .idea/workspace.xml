@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88a6d1d8-668a-4fa5-bb47-d9a2b3cb17b2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/TestController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/TestController.php" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DogController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/UserController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Dog.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/DogRepository.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/UserRepository.php" afterPath="" />
     </list>
     <ignored path="xeip.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,12 +50,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TestController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
+            <state relative-caret-position="558">
               <caret line="40" column="96" lean-forward="false" selection-start-line="40" selection-start-column="96" selection-end-line="40" selection-end-column="96" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Version20180110000013.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180110000013.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1515542444000" expanded="true" signature="585:743" ph="CREATE TABLE... test" />
+                <marker date="1515542444000" expanded="true" signature="1097:1112" ph="DROP TABLE t... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,7 +232,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="53" />
-    <option name="width" value="1371" />
+    <option name="width" value="1375" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -235,6 +263,23 @@
             <path>
               <item name="adamvelma" type="b2602c69:ProjectViewProjectNode" />
               <item name="adamvelma" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="adamvelma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adamvelma" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="adamvelma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adamvelma" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DoctrineMigrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="adamvelma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adamvelma" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -249,6 +294,13 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="adamvelma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adamvelma" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="adamvelma" type="b2602c69:ProjectViewProjectNode" />
@@ -372,18 +424,18 @@
       <workItem from="1514667468798" duration="29767000" />
       <workItem from="1514774802166" duration="16514000" />
       <workItem from="1515453987909" duration="5863000" />
-      <workItem from="1515543415288" duration="4800000" />
+      <workItem from="1515543415288" duration="4928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67492000" />
+    <option name="totallyTimeSpent" value="67620000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="53" width="1371" height="784" extended-state="0" />
+    <frame x="65" y="53" width="1375" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17870168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17818181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -424,13 +476,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/ValencePM/test.html.twig" />
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/ValencePM/barcode.html.twig" />
     <entry file="file://$PROJECT_DIR$/web/.htaccess">
@@ -482,13 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -703,9 +741,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TestController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
+        <state relative-caret-position="558">
           <caret line="40" column="96" lean-forward="false" selection-start-line="40" selection-start-column="96" selection-end-line="40" selection-end-column="96" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180110000013.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1515542444000" expanded="true" signature="585:743" ph="CREATE TABLE... test" />
+            <marker date="1515542444000" expanded="true" signature="1097:1112" ph="DROP TABLE t... " />
+          </folding>
         </state>
       </provider>
     </entry>
