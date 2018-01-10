@@ -20,35 +20,11 @@ class TestController extends AbstractController
      */
     public function getAction()
     {
-        $doctrine = $this->getDoctrine();
-        $test = $doctrine->getRepository('AppBundle:Test')->findAll();
+        $filepath = __DIR__ . '/../../../web/assets/testlog.txt';
+        $txt = json_encode($_GET);
 
-        if (!count($test)) {
-            $count = 0;
-            $test = new Test();
-            $test->setCount($count);
+        $file = file_put_contents($filepath, $txt.PHP_EOL , FILE_APPEND | LOCK_EX);
 
-            $em = $doctrine->getManager();
-            $em->persist($test);
-            $em->flush();
-        } else {
-            $test = $test[0];
-            $count = $test->getCount();
-        }
-
-        switch($count) {
-            case 9;
-                $count = 0;
-                break;
-            default:
-                $count++;
-        }
-
-        $test->setCount($count);
-        $em = $doctrine->getManager();
-        $em->persist($test);
-        $em->flush();
-
-        return new Response($count ?: "OK");
+        return new Response("OK");
     }
 }

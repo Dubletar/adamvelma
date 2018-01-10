@@ -2,73 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88a6d1d8-668a-4fa5-bb47-d9a2b3cb17b2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/DoctrineMigrations/Version20180110000013.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/AbstractController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DogController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/TestController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/UserController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Dog.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Test.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/DogRepository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/UserRepository.php" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/testlog.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/xeip.iml" afterPath="$PROJECT_DIR$/.idea/xeip.iml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/styles/main.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/styles/problems/problem.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/autoload.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
-      <change beforePath="$PROJECT_DIR$/bin/console" afterPath="$PROJECT_DIR$/bin/console" />
-      <change beforePath="$PROJECT_DIR$/cacheclear.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" afterPath="$PROJECT_DIR$/phpunit.xml.dist" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/AppController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/config/services.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/public/assets/Example.xls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/public/assets/excel_reader2.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/index.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/nav_bar/nav.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/problems/problem1.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/problems/problem2.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/problems/problem3.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/problems/problem4.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/problems/problem5.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/problems/problem6.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Service/PDFService.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/UtilityBundle/Controller/AbstractController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/UtilityBundle/Resources/config/services.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/UtilityBundle/Service/JsonResponseHelper.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/UtilityBundle/UtilityBundle.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/cache/.gitkeep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/logs/.gitkeep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/sessions/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/TestController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/TestController.php" />
       <change beforePath="$PROJECT_DIR$/web/.htaccess" afterPath="$PROJECT_DIR$/web/.htaccess" />
       <change beforePath="$PROJECT_DIR$/web/app.php" afterPath="$PROJECT_DIR$/web/app.php" />
       <change beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
       <change beforePath="$PROJECT_DIR$/web/apple-touch-icon.png" afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" />
-      <change beforePath="$PROJECT_DIR$/web/assets/testlog1515460161999999.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/assets/testlog15154601873987.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
-      <change beforePath="$PROJECT_DIR$/web/css/5ac7209.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/css/5ac7209_all_1.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/css/e37ee07.css" afterPath="" />
       <change beforePath="$PROJECT_DIR$/web/favicon.ico" afterPath="$PROJECT_DIR$/web/favicon.ico" />
       <change beforePath="$PROJECT_DIR$/web/robots.txt" afterPath="$PROJECT_DIR$/web/robots.txt" />
     </list>
@@ -93,11 +34,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="735">
               <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TestController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testlog.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/assets/testlog.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,6 +133,7 @@
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/AppController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/TestController.php" />
       </list>
     </option>
   </component>
@@ -257,6 +229,35 @@
             <path>
               <item name="adamvelma" type="b2602c69:ProjectViewProjectNode" />
               <item name="adamvelma" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="adamvelma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adamvelma" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="adamvelma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adamvelma" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="adamvelma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adamvelma" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="adamvelma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adamvelma" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="adamvelma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adamvelma" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -362,17 +363,18 @@
       <workItem from="1514667468798" duration="29767000" />
       <workItem from="1514774802166" duration="16514000" />
       <workItem from="1515453987909" duration="5863000" />
-      <workItem from="1515543415288" duration="283000" />
+      <workItem from="1515543415288" duration="1646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62975000" />
+    <option name="totallyTimeSpent" value="64338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1375" height="904" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2741818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2741818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -408,18 +410,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -622,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/nav_bar/nav.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -664,7 +652,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/sequences.txt" />
     <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Response.php" />
-    <entry file="file://$PROJECT_DIR$/web/assets/testlog.txt" />
     <entry file="file://$PROJECT_DIR$/web/assets/testlog15154601873987.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -684,6 +671,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/testlog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
