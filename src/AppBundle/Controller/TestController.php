@@ -59,7 +59,7 @@ class TestController extends AbstractController
                 $response = "OK";
         }
 
-        return new Response($q);
+        return new Response($response);
     }
 
     protected function logRequestData()
