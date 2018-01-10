@@ -20,6 +20,15 @@ class TestController extends AbstractController
      */
     public function getAction()
     {
+        $this->logRequestData();
+
+        $q = $_REQUEST['q'];
+
+        return new Response($q);
+    }
+
+    protected function logRequestData()
+    {
         $filepath = __DIR__ . '/../../../web/assets/testlog.txt';
         $txt = json_encode($_REQUEST);
         $txt .= PHP_EOL . json_encode($_SERVER);
@@ -28,7 +37,6 @@ class TestController extends AbstractController
         $txt .= PHP_EOL . json_encode($_FILES);
 
         $file = file_put_contents($filepath, $txt, FILE_APPEND);
-
-        return new Response("OK");
     }
+
 }
