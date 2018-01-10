@@ -38,7 +38,7 @@ class TestController extends AbstractController
                 $response = "773.726.3917";
                 break;
             case 'resume':
-                $response = "LINK";
+                $response = "https://github.com/Dubletar/adamvelma/tree/master/web/assets/resume";
                 break;
             case 'years':
                 $response = "6+";
