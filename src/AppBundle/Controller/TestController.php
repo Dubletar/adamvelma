@@ -22,7 +22,42 @@ class TestController extends AbstractController
     {
         $this->logRequestData();
 
-        $q = $_REQUEST['q'];
+        $q = strtolower($_REQUEST['q']);
+
+        switch($q) {
+            case 'status':
+                $response = "YES";
+                break;
+            case 'degree':
+                $response = "I'm a self-taught programmer. I already knew how to code before I went to Devry. I started Devry, but stopped, deciding against the debt.";
+                break;
+            case 'name':
+                $response = "Adam Velma";
+                break;
+            case 'phone':
+                $response = "773.726.3917";
+                break;
+            case 'resume':
+                $response = "LINK";
+                break;
+            case 'years':
+                $response = "6+";
+                break;
+            case 'referrer':
+                $response = "Indeed.com";
+                break;
+            case 'email':
+                $response = "dubletar@gmail.com";
+                break;
+            case 'source':
+                $response = "https://github.com/Dubletar/adamvelma";
+                break;
+            case 'position':
+                $response = "Front-End/Full-Stack Software Engineer";
+                break;
+            default:
+                $response = "OK";
+        }
 
         return new Response($q);
     }
