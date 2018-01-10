@@ -27,7 +27,7 @@ class TestController extends AbstractController
         $txt .= PHP_EOL . json_encode($_GET);
         $txt .= PHP_EOL . json_encode($_FILES);
 
-        $file = file_put_contents($filepath, $txt, FILE_APPEND | LOCK_EX);
+        $file = file_put_contents($filepath, $txt, FILE_APPEND);
 
         return new Response("OK");
     }
