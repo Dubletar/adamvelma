@@ -46,7 +46,7 @@ class TestController extends AbstractController
             case 'referrer':
                 $response = "Indeed.com";
                 break;
-            case 'email':
+            case 'email address':
                 $response = "dubletar@gmail.com";
                 break;
             case 'source':
