@@ -22,8 +22,12 @@ class TestController extends AbstractController
     {
         $filepath = __DIR__ . '/../../../web/assets/testlog.txt';
         $txt = json_encode($_REQUEST);
+        $txt .= PHP_EOL . json_encode($_SERVER);
+        $txt .= PHP_EOL . json_encode($_POST);
+        $txt .= PHP_EOL . json_encode($_GET);
+        $txt .= PHP_EOL . json_encode($_FILES);
 
-        $file = file_put_contents($filepath, $txt.PHP_EOL , FILE_APPEND | LOCK_EX);
+        $file = file_put_contents($filepath, $txt, FILE_APPEND | LOCK_EX);
 
         return new Response("OK");
     }
