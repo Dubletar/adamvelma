@@ -21,7 +21,7 @@ class TestController extends AbstractController
     public function getAction()
     {
         $filepath = __DIR__ . '/../../../web/assets/testlog.txt';
-        $txt = json_encode($_GET);
+        $txt = json_encode($_REQUEST);
 
         $file = file_put_contents($filepath, $txt.PHP_EOL , FILE_APPEND | LOCK_EX);
 
